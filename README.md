@@ -9,4 +9,4 @@
 * 17 category, 80 images/class, 1360 total images
 * scale, pose, light variations
 
-# ResizeImage
+
