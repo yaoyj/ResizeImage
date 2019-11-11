@@ -26,7 +26,7 @@ def resize_imgBatch(folder, new_folder):
         if im_array.shape != (224,224,3):
             print "===================="
             im_RGB = img.convert('RGB')
-            im_return = im_RGB.resize((224,224))
+            im_return = im_RGB.resize((224,224))  # w,h
             im_return.save(new_folder + '/' + filter_name + '.jpg')
         
         
